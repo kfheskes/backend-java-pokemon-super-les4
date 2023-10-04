@@ -14,6 +14,16 @@ public class Main {
             fp1.eats();
             fp1.heat();
             fp1.printNameLevel();
+
+            wp1.eats();
+            wp1.surf();
+            wp1.hydroPump();
+
+            gp1.leavesAttack();
+            gp1.poisonAttack();
+
+            ep1.thunder();
+            ep1.power();
         }
 
     }
