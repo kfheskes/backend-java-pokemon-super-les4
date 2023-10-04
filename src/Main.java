@@ -10,9 +10,13 @@ public class Main {
         ElectricPokemon ep1 = new ElectricPokemon("Pikachu", 20, 50, false);
 
 
+            fp1.flameAttack();
+            fp1.eats();
+            fp1.heat();
+            fp1.printNameLevel();
+        }
 
     }
 
 
 
-}

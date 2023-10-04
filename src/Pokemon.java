@@ -9,6 +9,10 @@ public abstract class Pokemon {
         this.level = level;
     }
 
+    public void printNameLevel(){
+        System.out.println(name + " has level "+ level);
+    }
+
     abstract void eats();
     public void speaks(){
         System.out.println(name + " speaks");
